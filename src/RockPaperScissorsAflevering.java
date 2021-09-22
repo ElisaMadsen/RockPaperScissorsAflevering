@@ -6,6 +6,7 @@ public class RockPaperScissorsAflevering {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
+        System.out.println("-------------------------------------------------------------------------------------------");
         System.out.println("You chose singleplayer!");
         System.out.println("Please write your name: ");
         String singleplayerName = scanner.next();
